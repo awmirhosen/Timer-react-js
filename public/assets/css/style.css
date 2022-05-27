@@ -1,0 +1,65 @@
+#root {
+width: 100%;
+height: 100vh;
+background-color: #282c34;
+color: yellow;
+}
+
+.App {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.App > div {
+    width: 100%;
+}
+
+.time-wrapper {
+    width: 100%;
+    padding: 30px;
+    font-size: 50px;
+    border: white 1px solid;
+    border-radius: 18px;
+    margin: 20px 0;
+}
+
+.btn-wrapper {
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.start-btn {
+    padding: 5px 24px;
+    background-color: inherit;
+    border: 1px solid green;
+    color: green;
+    border-radius: 12px;
+}
+
+.stop-btn {
+    padding: 5px 24px;
+    background-color: inherit;
+    border: 1px solid red;
+    color: red;
+    border-radius: 12px;
+}
+
+.resume-btn {
+    padding: 5px 24px;
+    background-color: inherit;
+    border: 1px solid white;
+    color: white;
+    border-radius: 12px;
+    margin: 10px 40px;
+}
+
+.reset-btn {
+    padding: 5px 24px;
+    background-color: inherit;
+    border: 1px solid yellow;
+    color: yellow;
+    border-radius: 12px;
+}
